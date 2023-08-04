@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <style>
+      h1 {
+        text-align: center;
+      }
+      .emoji-sun {
+        color: lightblue;
+      }
+      h2 {
+        text-align: center;
+      }
+      li:hover {
+        background: rgb(255, 227, 171);
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+        font-size: 20px;
+        margin: 0px auto;
+        display: block;
+        max-width: 400px;
+      }
+
+      li {
+        text-align: center;
+        margin: 20px;
+        padding: 20px 0px 20px 0px;
+        transition: all 200ms ease-in-out;
+      }
+
+      button {
+        display: block;
+        margin: 30px auto;
+        padding: 20px 20px;
+        border: thin solid #fff;
+        border-radius: 30px;
+        font-size: 18px;
+        color: #fff;
+        background: blue;
+        transition: all 200ms ease-in-out;
+      }
+
+      button:hover {
+        color: blue;
+        background: #fff;
+        border: blue;
+        cursor: pointer;
+      }
+      .ending {
+        text-align: center;
+      }
+
+      h {
+        padding: 20px;
+        font-size: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      🌤
+      <div class="emoji-sun">Currently 21º in Tokyo</div>
+    </h1>
+    <h2>
+      <div class="first-weather">13º / <strong>30º</strong></div>
+    </h2>
+    <ul>
+      <li>
+        <h3 class="tomorrow">
+          <strong>🌧Tomorrow</strong>
+        </h3>
+        <div class="numbers">10º / <strong> 20º</strong></div>
+      </li>
+
+      <li>
+        <h3 class="Saturday">
+          <strong>⛅️Saturday</strong>
+        </h3>
+        <div class="numbers">15º / 17º</div>
+      </li>
+      <li>
+        <h3 class="Sunday">
+          <strong>☀️Sunday</strong>
+        </h3>
+        <div class="numbers">25º / <strong>28º</strong></div>
+      </li>
+    </ul>
+    <button>Change city</button>
+    <div class="ending">Coded by Lorraine Ugen</div>
+  </body>
+</html>
