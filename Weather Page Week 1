@@ -42,14 +42,14 @@
         border-radius: 30px;
         font-size: 18px;
         color: #fff;
-        background: blue;
+        background: #0092ca;
         transition: all 200ms ease-in-out;
       }
 
       button:hover {
-        color: blue;
+        color: #0092ca;
         background: #fff;
-        border: blue;
+        border: #0092ca;
         cursor: pointer;
       }
       .ending {
