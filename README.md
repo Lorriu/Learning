@@ -2,7 +2,7 @@
 <br>
 This is created to show me learning coding.
 <br>
-First I signed up for a SheCodes Course.
+First I signed up for a SheCodes Basic Course.
 <br>
 The documents show progress of the three week "Introduction to Coding" course.
 <ul>
