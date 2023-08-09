@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lorraine Ugen</title>
+    <style>
+      h1 {
+        text-align: center;
+        color: #fff;
+        background: radial-gradient(
+          circle at 10% 20%,
+          rgb(244, 186, 186) 0%,
+          rgb(194, 157, 231) 90%
+        );
+        padding: 30px 60px 30px 60px;
+        margin: 10 0;
+      }
+
+      h2 {
+        text-align: center;
+        color: #5f2a2a;
+        padding: 10px 5px;
+        margin: 0 auto;
+        text-shadow: black;
+        border: 1px solid #f96d6d;
+        padding: 15px;
+        border-radius: 5px;
+        max-width: 700px;
+        display: block;
+        background: #fff;
+        font-weight: medium;
+      }
+      body {
+        background: ;
+      }
+
+      img {
+        display: block;
+        margin: 0 auto;
+        padding-top: 20px;
+        max-width: 100%;
+        border-radius: 90px;
+      }
+
+      figcaption {
+        text-align: center;
+      }
+
+      .para {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        line-height: 1.5;
+      }
+
+      button {
+        border-radius: 25px;
+        margin: 0 auto;
+        display: block;
+        background-color: #f96d6d;
+        border: 1px solid #f96d6d;
+        color: #fff;
+        font-size: 16px;
+        line-height: 22px;
+        padding: 12px 20px;
+        text-decoration: none;
+        transition: all 200ms ease-in-out;
+        box-shadow: rgba(41, 14, 43, 0.08) 0px 10px 10px 0;
+      }
+
+      button:hover {
+        color: #f96d6d;
+        background: #fff;
+        cursor: pointer;
+      }
+
+      .footnote {
+        text-align: center;
+      }
+
+      .wiki {
+        text-decoration: none;
+      }
+
+      .wiki:hover {
+        text-decoration: underline;
+      }
+
+      .linkin {
+        text-decoration: none;
+      }
+
+      .linkin:hover {
+        text-decoration: underline;
+      }
+
+      .page {
+        max-width: 1000px;
+        margin: 0 auto;
+        background: rgb(241, 228, 228);
+        padding: 30px;
+      }
+    </style>
+  </head>
+  <div class="page">
+    <body>
+      <h1>LORRAINE UGEN</h1>
+      <h2>British Olympic Long Jumper</h2>
+      <figure>
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/092/702/original/project1_image.jpeg?1691593156"
+          alt="Lorraine Ugen holding a Bronze medal"
+        />
+        <figcaption>
+          <em
+            >Lorraine Ugen, holding a Bronze Medal at the 2022 World Indoor
+            Championships.</em
+          >
+        </figcaption>
+      </figure>
+      <p class="para">
+        Lorraine Ugen is British Olympic Long Jumper. The 2016 Rio Olympic Games
+        finalist also competed at the 2020 Tokyo Olympic Games. She is a two
+        time World Indoor Championship Bronze Medalist and European Indoor
+        Silver Medalist. Lorraine has competed in three World Championship
+        finals placing 5th place in 2015 and 2017. Not only is Lorraine a Long
+        Jumper, but she also has some speed, stepping into the 2018 Commonwealth
+        Games relay team where Team England claimed Gold. She formerly held the
+        Indoor British Record in the Long Jump.
+      </p>
+
+      <p>
+        To find out more
+        <a
+          class="wiki"
+          href="https://en.wikipedia.org/wiki/Lorraine_Ugen"
+          target="_blank"
+          >Wikipedia</a
+        >
+      </p>
+      <button>Contact Us</button>
+      <p class="footnote">
+        This Page was coded by
+        <a
+          class="linkin"
+          href="https://www.linkedin.com/in/lorraine-ugen-03b08480"
+          target="_blank"
+          >Lorraine Ugen</a
+        >
+      </p>
+    </body>
+    <script>
+      function contactUS() {
+        let name = prompt("What is your name?");
+        let email = prompt("What is your email?");
+        alert("Hi" + " " + name + "!👋 " + "we will be in touch via email!");
+      }
+
+      let contactButton = document.querySelector("button");
+      contactButton.addEventListener("click", contactUS);
+    </script>
+  </div>
+</html>
