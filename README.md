@@ -1,6 +1,6 @@
 # Learning
 <br>
-This is created to show me learning coding.
+<strong>This is created to show me learning coding.</strong>
 <br>
 <br>
 First I signed up for a SheCodes Basic Course.
