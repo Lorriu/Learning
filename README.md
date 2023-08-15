@@ -3,7 +3,7 @@
 <strong>This is created to show me learning coding.</strong>
 <br>
 <br>
-First I signed up for a SheCodes Basic Course.
+First I signed up for a SheCodes "Intro To Coding" Basic Course.
 <br>
 The documents show progress of the three week "Introduction to Coding" course.
 <ul>
@@ -12,7 +12,7 @@ The documents show progress of the three week "Introduction to Coding" course.
   <li>Week 3, was combining all the HTML, CSS and Javascript you have learnt to create a landing page.</li>
 </ul>
 <br>
-I then signed up for the SheCodes Plus Course. This is an 8 week course on Web development.
+I then signed up for the SheCodes Plus "Web Development" Course. This is an 8 week course on Web development.
 <br>
 <ul>
   <li>Week 1, More advanced HTML & CSS. Split code into multiple files & zip. Wireframe.  </li>
