@@ -18,7 +18,7 @@ I then signed up for the SheCodes Plus Course. This is an 8 week course on "Web 
   <li>Week 1, More advanced HTML & CSS. Split code into multiple files & zip. Wireframe.  </li>
   <li>Week 2,  Debugging, Codesandbox challenges & creating forms. Wireframe to HTML/CSS. </li>
   <li>Week 3, More advanced JavaScript, Strings, Math, Arrays, Loops & Objects </li>
-  <li>Week 4, </li>
+  <li>Week 4, JavaScript functions, parameters, debugging, dates, selectors events & forms </li>
   <li>Week 5, </li>
   <li>Week 6, </li>
   <li>Week 7, </li>
