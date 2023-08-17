@@ -3,9 +3,13 @@
 //Use the values in weather object. Ask the user "Enter a city" (example: Paris), 
 //alert "It is currently 19°C (66°F) in Paris with a humidity of 80%"
 
+//round up the temperatures to whole numbers.
+
 //If the city doesn't exist in the object (i.e: Sydney), 
 //alert "Sorry, we don't know the weather for this city, 
 //try going to https://www.google.com/search?q=weather+sydney" 
+
+
 
 let weather = {
   paris: {
