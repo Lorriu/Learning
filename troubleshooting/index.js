@@ -56,6 +56,10 @@ city.addEventListener("submit", typeCity)
 city = city.toLowerCase();
 city = city.trim();
 
+
+// feature 3
+
+
 if (weather[city] !== undefined) {
 
 let temp = weather[city].temp;
