@@ -30,7 +30,7 @@
           <p class="date" id="yourId"></p>
           <h1>
             <div class="head" id="head">London</div>
-            <div class="temp" id="result">
+            <div class="temp" id="temperature">
               17<span class="changeC">ºC</span>
             </div>
             <div class="sky">Cloudy</div>
@@ -38,16 +38,14 @@
           </h1>
           <br />
           <div class="emojiMain">☁️</div>
-          <strong
-            ><a href="#" class="celciusOrF" class="C">ºC</a>
-            <a href="#" class="celciusOrF" class="F">/ ºF</a></strong
-          >
-          <input
-            type="number"
-            id="temp"
-            placeholder="Enter Celsius temperature"
-          />
-          <button id="F">Convert to Fahrenheit</button>
+          <strong>
+            <span class="celciusOrF" class="C" class="units"
+              >ºC<a href="#" class="celciusOrF" id="fahrenheit-link"
+                >/ ºF</a
+              ></span
+            >
+          </strong>
+
           <div></div>
         </div>
         <div class="col second">
@@ -114,3 +112,4 @@
   </div>
   <script src="src/index.js"></script>
 </html>
+
