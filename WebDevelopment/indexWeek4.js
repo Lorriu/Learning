@@ -32,3 +32,21 @@ function typeCity(event){
 let city = document.querySelector("#enterName");
 city.addEventListener("submit", typeCity)
 
+
+
+// Feature #3 have a button that converts the current ºC to ºF
+
+
+ function convertToFahrenheit(event) {
+    event.preventDefault();
+    let temperatureElement = document.querySelector("#temperature");
+    let temperatureText = temperatureElement.innerText; 
+    let temperature = parseFloat(temperatureText); 
+    if (!isNaN(temperature)) { 
+      temperatureElement.innerHTML = Math.round((temperature * 9) / 5 + 32) + '<span class="changeC">ºF</span>';
+    }
+  }
+
+  let fahrenheitLink = document.querySelector("#fahrenheit-link");
+  fahrenheitLink.addEventListener("click", convertToFahrenheit);
+    
