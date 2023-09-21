@@ -19,7 +19,7 @@ I then signed up for the SheCodes Plus Course. This is an 8 week course on "Web 
   <li>Week 2, Debugging, Codesandbox challenges & creating forms. Wireframe to HTML/CSS. </li>
   <li>Week 3, More advanced JavaScript, Strings, Math, Arrays, Loops & Objects </li>
   <li>Week 4, JavaScript functions, parameters, dates, selectors, events, forms & debugging. </li>
-  <li>Week 5, Learning what API's are and how to use them. </li>
+  <li>Week 5, Learning what API's are and how to use them in project. Axios/Ajax. </li>
   <li>Week 6, </li>
   <li>Week 7, </li>
   <li>Week 8, </li>
