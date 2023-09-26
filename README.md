@@ -20,7 +20,7 @@ I then signed up for the SheCodes Plus Course. This is an 8 week course on "Web 
   <li>Week 3, More advanced JavaScript, Strings, Math, Arrays, Loops & Objects </li>
   <li>Week 4, JavaScript functions, parameters, dates, selectors, events, forms & debugging. </li>
   <li>Week 5, Learning what API's are and how to use them in project. Axios/Ajax. </li>
-  <li>Week 6, Learning how to use Git, Github, Web Hosting and Netlify </li>
+  <li>Week 6, DevOps structure. Learning how to install & use Git, Github for desktop, Web Hosting and Netlify </li>
   <li>Week 7, </li>
   <li>Week 8, </li>
 </ul>
